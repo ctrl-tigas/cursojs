@@ -18,13 +18,13 @@ Tipos de dados
 OBS: JavaScript é uma linguagem de tipagem dinânimca (tipo da variável é atribuído automaticamente)
 */
 
-Exercício 1, 2
+// Exercício 1, 2
 let pais = "Brasil";
 let continente = "America do Sul";
 let populacao = 212;
 
-let ehIlha = false, linguagem;
-
+let ehIlha = false,
+  linguagem;
 
 console.log(`País: ${pais}`);
 console.log(`Continente: ${continente}`);
