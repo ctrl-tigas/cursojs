@@ -18,16 +18,22 @@ Tipos de dados
 OBS: JavaScript é uma linguagem de tipagem dinânimca (tipo da variável é atribuído automaticamente)
 */
 
-// Exercício 1, 2
-let pais = "Brasil";
-let continente = "America do Sul";
-let populacao = 212;
+/*
+Template literals -> `${variável}`
+*/
 
-let ehIlha = false,
-  linguagem;
+let idade = 31;
+console.log(`Eu tenho ${idade} anos.`);
 
-console.log(`País: ${pais}`);
-console.log(`Continente: ${continente}`);
-console.log(`População: ${populacao}`);
-console.log(`É uma ilha? ${ehIlha}`);
-console.log(`Língua oficial: ${linguagem}`);
+/*
+Tomada de decisão
+if(condicional){
+  código;
+} else {
+  código a ser executado caso
+  a condição seja falsa
+}
+
+podem ser encadeadas
+if(){} else if() {} ...
+*/
